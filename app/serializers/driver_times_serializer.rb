@@ -3,6 +3,6 @@ class DriverTimesSerializer < ActiveModel::Serializer
   has_many :time_trials
 
   def time_trials 
-    object.time_trials.order(:track_id)
+    object.time_trials.order(:date).reverse
   end
 end
