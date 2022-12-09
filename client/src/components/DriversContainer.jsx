@@ -34,7 +34,18 @@ export default function DriversContainer () {
     return (
         <div>
             <div>
-                {selectedDriver ? <DriverDetails driver={selectedDriver} /> : <img className="absolute top-[20%] left-[34%] w-72 h-52 mb-32 mx-2 rounded-xl pb-2" src={characterselect} alt="select"/>}
+                {selectedDriver ? 
+                <DriverDetails 
+                    driver={selectedDriver} 
+                /> : 
+                <div >
+                <img    
+                    className="absolute top-[20%] left-[38%] w-72 h-52 mb-32 mx-2 rounded-xl pb-2" 
+                    src={characterselect} 
+                    alt="select"
+                    />
+                </div>
+                }
                 <DriverCollection 
                     drivers={driversToDisplay}
                     searchQuery={searchQuery}

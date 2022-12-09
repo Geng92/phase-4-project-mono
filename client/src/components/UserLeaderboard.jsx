@@ -12,8 +12,8 @@ export default function UserLeaderboard({ time_trials }) {
     );
 
     return (
-        <div className="bg-slate-200 absolute bottom-[4%] left-[30%] ml-20 h-[80%] w-[60%] rounded-md border-4 outline">
-            <div className="grid grid-cols-1 grid-rows-auto gap-y-2 mb-4 pt-8 xl:pt-12">
+        <div className="bg-slate-200 absolute bottom-[4%] left-[30%] ml-20 h-[80%] w-[60%] rounded-md border-4 outline overflow-hidden">
+            <div className="grid grid-cols-1 grid-rows-auto gap-y-2 mb-4 pt-8 xl:pt-12 overflow-auto">
             {recentTimesCard}            
             </div>
         </div>

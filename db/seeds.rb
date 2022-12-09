@@ -8,6 +8,9 @@
 puts "Deleting Drivers..."
 puts "Deleting Tracks..."
 puts "Deleting Time_Trials..."
+Driver.destroy_all
+Track.destroy_all
+TimeTrial.destroy_all
 
 
 puts "Creating Drivers!"
