@@ -62,8 +62,8 @@ export default function UserTimesForm ({ user, updateTimes }) {
                 </select>
                     <label className="bg-slate-400 text-center rounded-md outline">Lap Time</label>
                     <input className="bg-slate-200 text-center rounded-md outline" name="Lap_Time" placeholder="time here" type="text" onChange={handleChange}></input>
+                    <button className="absolute bottom-0 left-[19%] w-48 xl:left-[26%]">Add Time</button>
                 </form>
-                <button className="absolute bottom-0 left-[19%] w-48 xl:left-[26%]">Add Time</button>
             </div>
         </div>
     );
