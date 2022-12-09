@@ -61,7 +61,7 @@ export default function TracksContainer () {
     return ( 
     <div>
         <div>
-          {selectedTrack ? <TrackDetails track={selectedTrack} admin={admin} id={id} removeTrack={removeTrack}/> : <img src={koopa} alt="track" className="absolute top-[20%] left-[34%] w-72 h-52 mb-32 mx-2 rounded-xl pb-2"/>}
+          {selectedTrack ? <TrackDetails track={selectedTrack} admin={admin} id={id} removeTrack={removeTrack}/> : <img src={koopa} alt="track" className="absolute top-[20%] left-[39%] w-72 h-64 mb-32 mx-2 rounded-xl pb-2"/>}
         </div>
         <div>
           {admin ? <TrackForm addTrack={addTrack}/> : <></>}
