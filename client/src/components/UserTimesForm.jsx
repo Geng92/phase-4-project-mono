@@ -53,6 +53,12 @@ export default function UserTimesForm ({ user, updateTimes }) {
                     <option value="1">Rainbow Road</option>
                     <option value="2">Koopa Troopa Beach</option>
                     <option value="3">DK Summit</option>
+                    <option value="4">Wario Stadium</option>
+                    <option value="5">Bowser's Castle</option>
+                    <option value="6">Yoshi Falls</option>
+                    <option value="7">Delfion Square</option>
+                    <option value="8">Ghost Valley</option>
+                    <option value="9">Toads TurnPike</option>
                 </select>
                     <label className="bg-slate-400 text-center rounded-md outline">Lap Time</label>
                     <input className="bg-slate-200 text-center rounded-md outline" name="Lap_Time" placeholder="time here" type="text" onChange={handleChange}></input>
