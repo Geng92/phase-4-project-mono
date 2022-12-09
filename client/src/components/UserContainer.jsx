@@ -49,11 +49,11 @@ export default function UserContainer ({ onUserCreate }) {
                     updateTimes={updateTimes}
                 />
                     <h1 
-                        className="absolute font-bold top-[17%] left-[60%] underline z-40">
+                        className="absolute font-bold top-[15%] left-[60%] underline z-40">
                         {isUserTime ? "Recent Time Trials" : "Personal Time Trials"}
                     </h1>
                     <button 
-                        className="absolute top-[16%] left-[40%] mt-1 xl:mt-3 z-40" 
+                        className="absolute top-[13%] left-[40%] mt-1 xl:mt-3 z-40" 
                         onClick={handleIfUserClick}>
                         {isUserTime ? "Check Personal" : "Check Recent"}
                     </button>

@@ -13,8 +13,8 @@ export default function UserTimesCollection ({ user }) {
     );
     
     return(
-      <div className="bg-slate-200 absolute bottom-[4%] left-[30%] ml-20 h-[80%] w-[60%] rounded-md border-4 outline">
-        <div className="grid grid-cols-1 grid-rows-auto gap-y-2 mb-4 pt-8 xl:pt-12">
+      <div className="bg-slate-200 absolute bottom-[4%] left-[30%] ml-20 h-[75%] w-[60%] rounded-md border-4 outline overflow-auto">
+        <div className="grid grid-cols-1 grid-rows-auto gap-y-2 mb-4 pt-8 xl:pt-1">
         {timeTrialCards}
       </div>
       </div>
